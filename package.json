@@ -1,0 +1,21 @@
+{
+  "name": "advent-of-code",
+  "version": "1.0.0",
+  "description": "adventOfCode",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "n-1": "ts-node ./src/n-1.ts",
+    "n-2": "ts-node ./src/n-2.ts",
+    "n-3": "ts-node ./src/n-3.ts"
+  },
+  "author": "spm",
+  "license": "ISC",
+  "dependencies": {
+    "@types/node": "^12.12.14",
+    "@types/request": "^2.48.3",
+    "request": "^2.88.0",
+    "ts-node": "^8.5.4",
+    "typescript": "^3.7.2"
+  }
+}
